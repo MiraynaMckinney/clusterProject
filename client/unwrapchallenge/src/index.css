@@ -1,0 +1,61 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #f4ece6;
+}
+section{
+  width: 50vw;
+  height: 80vh;
+}
+
+h2 {
+  color: #282e5e;
+}
+
+.title{
+padding: 0 20px;
+}
+
+.clusterlist {
+  overflow-y: scroll;
+  border: solid 1px black;
+}
+
+.item {
+  border: solid 1px black;
+}
+
+.selected{
+  background-color: rgba(227, 158, 134, 0.487);
+}
+
+.clusterheader {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown{
+  align-self: center;
+  width: 50px;
+  height: 25px;
+}
+
+.sentence{
+  display: flex;
+  flex-direction: column;
+}
+
+#unclusteredlist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
